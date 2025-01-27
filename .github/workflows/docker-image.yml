@@ -19,7 +19,7 @@ jobs:
         php-version: '8.0' # Specify the PHP version you need
 
     - name: Install dependencies
-      run: composer install
+      run: composer update
 
     - name: Run PHPUnit
       run: vendor/bin/phpunit
