@@ -15,4 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
+      run: docker compose run --rm php composer install
+    - name: Execute the tests
       run: docker compose run --rm php composer run-script test
