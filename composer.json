@@ -87,7 +87,8 @@
         ],
         "phpcs": "./vendor/bin/phpcs",
         "phpcs:fix": "./vendor/bin/phpcbf",
-        "phpstan": "./vendor/bin/phpstan analyse"
+        "phpstan": "./vendor/bin/phpstan analyse",
+        "test": "./vendor/bin/phpunit"
     },
     "conflict": {
         "symfony/symfony": "*"
