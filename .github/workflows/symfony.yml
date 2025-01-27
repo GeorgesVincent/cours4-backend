@@ -26,4 +26,4 @@ jobs:
         php-version: '8.0'
     - uses: actions/checkout@v4
     - name: Execute tests (Unit and Feature tests) via PHPUnit
-      run: /bin/phpunit
+      run: vendor/bin/phpunit
